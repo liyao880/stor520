@@ -1,0 +1,255 @@
+---
+title: '**STOR 520: Statistical Computing for Data Science**'
+geometry: margin=2
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    css: custom.css
+  html_document:
+    toc: yes
+    df_print: paged
+  pdf_document:
+    toc: yes
+---
+
+
+
+# **About the Course**
+
+See the **[syllabus](Syllabi/520_Syllabus.pdf)** for details. This course is designed for students who want to develop practical skills in statistical computing and data science using Python. Modern data analysis requires not only the ability to apply statistical and machine learning methods, but also the ability to collect, clean, transform, visualize, and integrate complex data from multiple sources. The goal of this course is to help students build a strong conceptual and computational foundation in the complete data science workflow through hands-on programming, real-world data analyses, and project-based learning. Topics include data visualization, data wrangling and cleaning, exploratory data analysis, data merging, predictive modeling, and machine learning methods such as linear and logistic regression, support vector machines, tree-based models, clustering, and recommender systems.
+
+
+- Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
+
+- Teaching Assistant: **[TBD](https://stor.unc.edu/people/graduate-students/)**
+    
+- Class: TTH 3:30PM-4:45PM, TBD
+    
+- Office Hours:
+    - Instructor Office Hours: W 11:00AM-12:00PM, Hanes 334
+    - TA Office Hours: 
+
+
+# **Course Material**
+
+| Date | Topic | Materials | Slides |
+|:-----:|:------------------------------|:---------:|:------:|
+| Jan. 07 | Logistics and Course Overview | | |
+| Jan. 12 | Python Programming I | | |
+| Jan. 14 | Python Programming II | | |
+| Jan. 19 | Data Visualization I | | |
+| Jan. 21 | Data Visualization II | | |
+| Jan. 26 | Data Transformation I | | |
+| Jan. 28 | Data Transformation II | | |
+| Feb. 02 | Exploratory Data Analysis I | | |
+| Feb. 04 | Exploratory Data Analysis II | | |
+| Feb. 09 | Tidy Data and Data Reshaping | | |
+| Feb. 11 | Project Proposal Discussion | | |
+| Feb. 16 | Data Cleaning and Missing Data | | |
+| Feb. 18 | Strings, Dates, and Categorical Data | | |
+| Feb. 23 | Joins and Data Merging | | |
+| Feb. 25 | Functions and Reproducible Data Analysis | | |
+| Mar. 02 | Predictive Modeling and Model Evaluation | | |
+| Mar. 04 | Linear Regression I | | |
+| Mar. 09 | **Spring Break — No Class** | | |
+| Mar. 11 | **Spring Break — No Class** | | |
+| Mar. 16 | Linear Regression II | | |
+| Mar. 18 | Midpoint Project Review | | |
+| Mar. 23 | Logistic Regression I | | |
+| Mar. 25 | **Well-Being Day — No Class** | | |
+| Mar. 30 | Logistic Regression II | | |
+| Apr. 01 | Support Vector Machines | | |
+| Apr. 06 | Tree-Based Methods I | | |
+| Apr. 08 | Tree-Based Methods II | | |
+| Apr. 13 | Clustering | | |
+| Apr. 15 | Recommender Systems | | |
+| Apr. 20 | Final Project Presentations | | |
+| Apr. 22 | Final Project Presentations | | |
+
+
+# **Homework Tracker**
+
+All homework assignments are to be submitted via **[Canvas](https://edtech.unc.edu/service/canvas/)**. Late homework will receive a grade of **0**.
+
+| Date Assigned | Instructions | Due Date (Time) |
+|:-------------:|:------------:|:---------------:|
+| Jan. 14 | HW1 | Jan. 31 (11:59 PM) |
+| Jan. 28 | HW2 | Feb. 14 (11:59 PM) |
+| Feb. 18 | HW3 | Mar. 07 (11:59 PM) |
+| Mar. 04 | HW4 | Mar. 21 (11:59 PM) |
+| Mar. 23 | HW5 | Apr. 04 (11:59 PM) |
+| Apr. 06 | HW6 | Apr. 18 (11:59 PM) |
+
+
+# **Final Project Details**
+
+This course includes a final project in lieu of a final exam. The project is designed to give students hands-on experience completing an end-to-end data science analysis using a real-world dataset.
+
+Projects will be completed in groups of **four** and consist of:
+
+- Project Proposal (10%)
+- Midpoint Review (10%)
+- Project Presentation (30%)
+- Project Report (40%)
+- Peer Review Score (10%)
+
+
+## Group List
+
+Please form your final project group by **January 28** and sign up using the shared **[spreadsheet]()**. Please do not modify the information entered by other.
+
+## Individual Presentation Responsibilities
+
+Each group will have **four students**:
+
+- One student will lead the **Project Proposal Discussion**.
+- A different student will lead the **Midpoint Review**.
+- The remaining two students will deliver the **Final Project Presentation**.
+
+Each student should present at only one milestone unless approved otherwise. These roles divide only the speaking responsibilities; **all members must contribute meaningfully to every stage of the project**.
+
+## Project Scope
+
+The final project should address a meaningful data science question using techniques introduced in this course. Each project should include data acquisition or identification, data cleaning, exploratory data analysis, and an appropriate statistical or machine-learning analysis.
+
+Possible project directions include:
+
+- Analyze a real-world dataset to answer an interesting scientific, social, or business question
+- Develop a regression or classification pipeline for a prediction problem
+- Compare several statistical or machine-learning methods on the same dataset
+- Investigate how different preprocessing or feature-engineering choices affect model performance
+- Conduct a clustering or other unsupervised learning analysis
+- ...
+
+Projects are not required to develop a new algorithm. The emphasis should be on formulating a meaningful question, preparing the data carefully, selecting appropriate methods, evaluating the results correctly, and communicating the findings clearly.
+
+## Five Project Components
+
+**P1: Project Proposal** *(10 Points)*
+
+Each group will submit a proposal of no more than **two pages**, excluding references. The proposal should contain four sections:
+
+1. **Introduction:** Project question and motivation  
+2. **Data:** Dataset(s), data source, key variables, and prediction target, when applicable  
+3. **Method:** Proposed analysis or candidate methods and evaluation criteria  
+4. **References:** Relevant references, when applicable  
+
+One group member will discuss the proposal with the instructor. The proposed methods may be revised as the project develops. Please use the LaTeX proposal template available at [this link](https://drive.google.com/file/d/1xwJraJUoDhcLkPPdqjwRhvU_2V4RrxUi/view?usp=drive_link). Failure to use the required template may result in a point deduction.
+
+---
+
+**P2: Midpoint Review** *(10 Points)*
+
+Each group will submit progress slides of no more than **10 slides**, excluding references, and meet with the instructor. The slides should follow the proposal structure and include:
+
+1. **Introduction:** Refined project question and motivation  
+2. **Data:** Dataset status, key variables, data cleaning, and preliminary EDA  
+3. **Method:** Planned methods, evaluation criteria, and at least one baseline analysis or model  
+4. **Progress and Next Steps:** Preliminary results, current challenges, and remaining work  
+5. **References:** Relevant references, when applicable  
+
+A different group member will lead the midpoint review.
+
+---
+
+**P3: Project Presentation** *(30 Points)*
+
+The remaining two group members will present the final project during the last two class meetings. All group members must attend.
+
+The presentation should follow the project structure and include:
+
+1. **Introduction:** Project question and motivation  
+2. **Data:** Dataset(s), key variables, prediction target, data cleaning, and EDA  
+3. **Method:** Final methods and evaluation criteria  
+4. **Results:** Main findings, model performance, and interpretation  
+5. **Conclusion:** Conclusions, limitations, and possible extensions  
+6. **References:** Relevant references, when applicable  
+
+The final presentation will be compared with the midpoint review to assess the group’s progress. It should demonstrate substantial advancement in the analysis, results, and conclusions. Excessive overlap with the midpoint review without meaningful new progress may result in a point deduction.
+
+The presentation length will be announced later.
+
+---
+
+**P4: Project Report** *(40 Points)*
+
+Each group will submit a report of no more than **eight pages**, excluding references and appendices, together with reproducible code. The report must use the [NeurIPS LaTeX template](https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip). The standard **Related Work** section should be replaced with a **Data** section. The report should include:
+
+1. **Introduction:** Project question, motivation, and main contributions  
+2. **Data:** Dataset(s), data source, key variables, prediction target, data preparation, and EDA  
+3. **Method:** Statistical or machine-learning methods and evaluation criteria  
+4. **Results:** Main findings, model performance, and interpretation  
+5. **Conclusion:** Conclusions, limitations, and possible extensions  
+6. **References**
+
+Submit the report in PDF format and include all notebooks, scripts, and instructions needed to reproduce the analysis.
+
+Projects will be evaluated on the complete data science workflow, including data preparation, methodological choices, evaluation, interpretation, reproducibility, and communication—not predictive performance alone. Failure to use the required template may result in a point deduction.
+
+---
+
+**P5: Peer Review Score** *(10 Points)*
+
+Each student will confidentially evaluate the other three group members on a scale from **0 to 10**, based on their overall contributions to the project. Failure to submit the peer evaluation by the deadline will result in a two-point penalty. The other group members will receive a default score of 10 from the student who did not submit.
+
+- [Peer Scoring]()
+
+
+## Due Dates of Individual Parts
+
+| Part | Description | Location | Due Date (Time) |
+|:----:|:------------------------|:----------------|:----------------|
+| P1 | Project Proposal | Canvas | Feb. 07 (11:59 PM) |
+|  | Proposal Discussion | Hanes 334 | Feb. 11 (Lecture Time) |
+| P2 | Midpoint Review Slides | Canvas | Mar. 14 (11:59 PM) |
+|  | Midpoint Review | Hanes 334 | Mar. 18 (Lecture Time) |
+| P3 | Presentation Slides | Canvas | Apr. 18 (11:59 PM) |
+|  | Final Presentation | Class | Apr. 20 or Apr. 22 (Lecture Time) |
+| P4 | Final Project Report and Code | Canvas | Apr. 30 (11:59 PM) |
+| P5 | Peer Scoring | [Google Survey]() | Apr. 30 (11:59 PM) |
+
+# **Class Participation**
+
+Check the **[paper list and participation record]()** for paper presentation opportunities and class participation records.
+
+# **Reading**
+
+- **[Deep learning](https://www.deeplearningbook.org/)**, by Ian Goodfellow, Yoshua Bengio, Aaron Courville. 
+- **[Deep learning theory lecture note](https://mjt.cs.illinois.edu/dlt/)**, by Matus Telgarsky.
+- **[Foundations of machine learning](https://cs.nyu.edu/~mohri/mlbook/)**, by Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar.
+- **[Deep learning architectures -- A mathematical approach](https://drive.google.com/file/d/1MO5XNM0GsilmXsEed8XUPN539H8PeIoE/view?usp=sharing)**, by Ovidiu Calin.
+- **[Convex optimization](https://stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)**, by Stephen Boyd, and Lieven Vandenberghe.
+
+This page was last updated on `r Sys.time()` Eastern Time.
+
+# **Reading**
+
+Course materials will be self-contained. The following books and online resources are recommended references:
+
+- **[Python for Data Analysis, 3rd Edition](https://wesmckinney.com/book/)**, by Wes McKinney — Python, NumPy, pandas, data cleaning, transformation, and merging.
+- **[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)**, by Jake VanderPlas — data manipulation, visualization, and machine learning in Python.
+- **[An Introduction to Statistical Learning with Applications in Python](https://www.statlearning.com/)**, by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, and Jonathan Taylor — regression, classification, tree-based methods, support vector machines, and clustering.
+- **[Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)**, by Claus O. Wilke — principles and practices for effective data visualization.
+- **[Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)** — documentation and examples for predictive modeling and machine learning in Python.
+
+
+This page was last updated on `r Sys.time()` Eastern Time.
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const correctPassword = "stor2025hanes334"; // Set your password here
+    const links = document.getElementsByClassName("protected-link");
+
+    for (let i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default action of the link
+        const userPassword = prompt("Enter the password to access this link:");
+        if (userPassword === correctPassword) {
+          window.open(this.getAttribute("data-url"), "_blank"); // Open the link in a new tab
+        } else {
+          alert("Incorrect password. Access denied.");
+        }
+      });
+    }
+  });
+</script>
