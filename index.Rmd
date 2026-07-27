@@ -34,34 +34,34 @@ See the **[syllabus](Syllabi/520_Syllabus.pdf)** for details. This course is des
 
 | Date | Topic | Materials | Slides |
 |:-----:|:------------------------------|:---------:|:------:|
-| Jan. 07 | Logistics and Course Overview | | |
+| Jan. 07 | Logistics and Overview| | |
 | Jan. 12 | Python Programming I | | |
 | Jan. 14 | Python Programming II | | |
-| Jan. 19 | Data Visualization I | | |
-| Jan. 21 | Data Visualization II | | |
-| Jan. 26 | Data Transformation I | | |
-| Jan. 28 | Data Transformation II | | |
-| Feb. 02 | Exploratory Data Analysis I | | |
-| Feb. 04 | Exploratory Data Analysis II | | |
-| Feb. 09 | Tidy Data and Data Reshaping | | |
+| Jan. 19 | Strings, Dates, and Categorical Data | | |
+| Jan. 21 | Data Visualization I | | |
+| Jan. 26 | Data Visualization II | | |
+| Jan. 28 | Data Transformation I | | |
+| Feb. 02 | Data Transformation II | | |
+| Feb. 04 | Tidy Data and Data Reshaping | | |
+| Feb. 09 | Joins and Data Merging | | |
 | Feb. 11 | Project Proposal Discussion | | |
 | Feb. 16 | Data Cleaning and Missing Data | | |
-| Feb. 18 | Strings, Dates, and Categorical Data | | |
-| Feb. 23 | Joins and Data Merging | | |
-| Feb. 25 | Functions and Reproducible Data Analysis | | |
-| Mar. 02 | Predictive Modeling and Model Evaluation | | |
-| Mar. 04 | Linear Regression I | | |
+| Feb. 18 | Exploratory Data Analysis | | |
+| Feb. 23 | Predictive Modeling and Model Evaluation | | |
+| Feb. 25 | Linear Regression I | | |
+| Mar. 02 | Linear Regression II | | |
+| Mar. 04 | Logistic Regression I | | |
 | Mar. 09 | **Spring Break — No Class** | | |
 | Mar. 11 | **Spring Break — No Class** | | |
-| Mar. 16 | Linear Regression II | | |
+| Mar. 16 | Logistic Regression II | | |
 | Mar. 18 | Midpoint Project Review | | |
-| Mar. 23 | Logistic Regression I | | |
+| Mar. 23 | Support Vector Machines I | | |
 | Mar. 25 | **Well-Being Day — No Class** | | |
-| Mar. 30 | Logistic Regression II | | |
-| Apr. 01 | Support Vector Machines | | |
-| Apr. 06 | Tree-Based Methods I | | |
-| Apr. 08 | Tree-Based Methods II | | |
-| Apr. 13 | Clustering | | |
+| Mar. 30 | Support Vector Machines II | | |
+| Apr. 01 | Tree-Based Methods I | | |
+| Apr. 06 | Tree-Based Methods II | | |
+| Apr. 08 | Clustering I | | |
+| Apr. 13 | Clustering II | | |
 | Apr. 15 | Recommender Systems | | |
 | Apr. 20 | Final Project Presentations | | |
 | Apr. 22 | Final Project Presentations | | |
